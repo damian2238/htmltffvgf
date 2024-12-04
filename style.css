@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+.main-container{
+    border: 2px solid;
+    margin: 10px;
+    max-width: 1000px;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    align-items: center;
+}
+#header-title{
+    display: flex;
+    align-items: center;
+}
+#header-title,p {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+#box{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+nav,a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#header-hero{
+    margin: 70px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#f-dev{
+    padding-bottom: 10px;
+    font-size: xx-large;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#p-1{
+    font-size: small;
+    color: rgb(150, 144, 144);
+    
+}
+#top-section{
+    display: flex;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+#project{
+    border-right: 2px solid;
+    flex: 0 0 25%;
+}
+#pro{
+    line-height: 1.5;
+    margin: 10px;
+}
+#work{
+    border-right: 2px solid;
+    padding-bottom: 30px;
+}
+.project-text{
+    line-height: 3;
+    font-size: 13px;
+}
+#project,p{
+    padding-left: 5px;
+}
+#project hr{
+    margin-left: -2px;
+    height: 2px;
+    background-color: hsl(0, 0%, 0%);
+}
+#work{
+    flex: 0 0 40%;
+}
+#work hr{
+    height: 2px;
+    background-color: #000;
+}
+#education{
+    flex: 0 0 35%;
+}
+#work-exp{
+    padding: 10px;
+    border-bottom: 10px;
+}
+#link{
+    color: rgb(44, 44, 227);
+}
+#source{
+    padding: 10px;
+}
+
+#github-link{
+    padding-bottom: 20px;
+    color: rgb(69, 69, 216);
+
+}
+#grad{
+    line-height: 1;
+    margin: 10px;
+}
+.list{
+    list-style: none;
+    position: relative;
+}
+.list::before{
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    width: 4px;
+    height: 1px;
+    background-color: black;
+}
+#reviews{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+#review-container{
+    padding: 0 30px;
+   display: flex; 
+   align-items: center;
+   gap: 20px;
+   margin-bottom: 60px;
+}
+.about-john{
+    border: 2px solid;
+    padding-top : 30px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+}
+
+.teacher{
+    padding: 8px;
+    color: rgb(202, 197, 197);
+}
+
+footer{
+    padding: 30px;
+    text-align: center;
+}
